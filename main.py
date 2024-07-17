@@ -1,4 +1,5 @@
 """main application module"""
+
 import uvicorn
 from fastapi import FastAPI
 from routes.weather_route import weather_route

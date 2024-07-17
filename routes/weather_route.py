@@ -1,4 +1,5 @@
 """Base route to get weather forecast"""
+
 from fastapi import APIRouter, Request, Form
 from fastapi.templating import Jinja2Templates
 from services.open_meteo_api import get_forecast

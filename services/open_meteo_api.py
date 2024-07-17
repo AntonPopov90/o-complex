@@ -1,4 +1,5 @@
 """service module to get forecast data"""
+
 from open_meteo import OpenMeteo
 from open_meteo.exceptions import OpenMeteoConnectionError
 from open_meteo.models import DailyParameters, HourlyParameters
